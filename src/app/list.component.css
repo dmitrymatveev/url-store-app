@@ -1,0 +1,25 @@
+@import url('./app.component.css');
+
+.url-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.url-item {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+  word-break: break-all;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.active {
+  background-color: #0056b3;
+  font-weight: bold;
+}
